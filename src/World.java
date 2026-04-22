@@ -4,7 +4,13 @@ public class World{
 		System.out.print("Java");
 
 		System.out.print("Salamm ");
-		System.out.print("Salamm");
+		System.out.println(" ----------- ");
+
+
+		if(args.length>0){
+			System.out.println("Array "+args[0]);
+//			System.out.println("Array2 "+args[1]);
+		}
 
 		// salam cixcaq
 //		System.out.println();
