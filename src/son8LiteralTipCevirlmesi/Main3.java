@@ -9,6 +9,7 @@ public class Main3 {
         System.out.println("Byte b: "+b);
 
         short c=500;
+        char string='3';
         byte d=(byte) c;
         System.out.println(d);
 
