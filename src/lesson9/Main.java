@@ -5,7 +5,10 @@ public class Main {
         User user = new User();
         user.name = "Eli";
 
-        int Class=1;
+        int Class = 1;
+
+        int a = 5 + 6;
+        int a1=5+6;
 
 
         user = null;
