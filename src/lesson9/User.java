@@ -5,4 +5,8 @@ public class User {
     public String surname;
     protected int age;
     private String password;
+
+    public void metod(int a){
+        System.out.println("Metod isledi");
+    }
 }

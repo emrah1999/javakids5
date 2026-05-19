@@ -5,6 +5,8 @@ public class Main {
         User user = new User();
         user.name = "Eli";
 
+        user.metod(5);
+
         int Class = 1;
 
         int a = 5 + 6;
