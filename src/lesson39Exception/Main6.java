@@ -16,8 +16,8 @@ public class Main6 {
         try (MyClass myClass = new MyClass();Scanner scanner = new Scanner(System.in)) {
 
             myClass.doSomething();
-        } catch (Exception e) {
-            System.out.println("An error occurred: " + e.getMessage());
+        } finally{
+
         }
     }
 }
