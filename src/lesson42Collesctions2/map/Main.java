@@ -32,5 +32,9 @@ public class Main {
 
         System.out.println(entrySet);
 
+        Set<Integer> keys=treeMap.keySet();
+        System.out.println(keys);
+
+
     }
 }
