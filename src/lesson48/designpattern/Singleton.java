@@ -1,6 +1,6 @@
 package lesson48.designpattern;
 
-public class Singleton {
+public class Singleton { //bean=singleton
     private static Singleton instance;
 
     private Singleton() {

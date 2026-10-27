@@ -2,6 +2,7 @@ package lesson48.designpattern;
 
 public class User  {
     private String name;
+    private String surname;
     private int age;
     private String email;
 
@@ -9,6 +10,7 @@ public class User  {
         this.name = builder.name;
         this.age = builder.age;
         this.email = builder.email;
+        this.surname = builder.surname;
     }
 
     public String getName() {
@@ -22,6 +24,12 @@ public class User  {
     public String getEmail() {
         return email;
     }
+    private String getSurname() {
+        return surname;
+    }
+
+
+
     public static BuilderUser builder() {
         return new BuilderUser();
     }
@@ -30,9 +38,14 @@ public class User  {
         private String name;
         private int age;
         private String email;
+        private String surname;
 
         public BuilderUser name(String name) {
             this.name = name;
+            return this;
+        }
+        public BuilderUser surname(String surname) {
+            this.surname = surname;
             return this;
         }
 
